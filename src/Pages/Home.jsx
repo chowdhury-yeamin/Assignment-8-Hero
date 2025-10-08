@@ -1,12 +1,14 @@
 import { Apple } from "lucide-react";
 import img1 from "../assets/hero.png";
 import Banner from "../Components/Banner";
-import { useLoaderData } from "react-router";
+import { Link } from "react-router";
 import Card from "../Components/Card";
+import useProducts from "../Hooks/useProducts";
 
 const Home = () => {
-  const products = useLoaderData();
-  const eightProducts = products.slice(0,8)
+  const { products } = useProducts();
+
+  const eightProducts = products.slice(0, 8);
   return (
     <div className="text-center  mt-5">
       <h1 className="font-bold text-4xl">
@@ -55,6 +57,12 @@ const Home = () => {
           <Card key={product.id} product={product}></Card>
         ))}
       </div>
+      <Link
+        to={"/apps"}
+        className="btn btn-primary text-2xl my-4 p-6 rounded-2xl"
+      >
+        Show All
+      </Link>
     </div>
   );
 };
