@@ -1,5 +1,6 @@
 import { Apple } from "lucide-react";
-import React from "react";
+import img1 from "../assets/hero.png"
+import Banner from "../Components/Banner"
 
 const Home = () => {
   return (
@@ -33,34 +34,13 @@ const Home = () => {
           </a>
         </button>
       </div>
+
       <div className="mt-10 flex flex-col items-center">
-        <img className="w-150" src="/src/assets/hero.png" alt="" />
+        <img className="w-150" src={img1} alt="" />
       </div>
 
       {/* Banner section  */}
-      <div className="bg-gradient-to-r from-[#A33FFB] to-[#7746FC]">
-        <div className="py-4 text-3xl text-white font-semibold">
-          <h1>Trusted by Millions, Built for You</h1>
-        </div>
-
-        <div className="sm:flex flex-col text-white py-2 md:flex-row gap-7 justify-around ">
-          <div className="text-center">
-            <p>Total Downloads</p>
-            <h1 className="text-4xl font-bold">29.6M</h1>
-            <p>21% more than last month</p>
-          </div>
-          <div>
-            <p>Total Reviews</p>
-            <h1 className="text-4xl font-bold">906K</h1>
-            <p>46% more than last month</p>
-          </div>
-          <div>
-            <p>Active Apps</p>
-            <h1 className="text-4xl font-bold">132+</h1>
-            <p>31 more will Launch</p>
-          </div>
-        </div>
-      </div>
+     <Banner></Banner>
     </div>
   );
 };
