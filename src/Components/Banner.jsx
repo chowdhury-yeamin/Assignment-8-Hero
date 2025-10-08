@@ -18,7 +18,7 @@ const StatsSection = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-r from-indigo-500 to-purple-600 py-16 text-white text-center">
+    <section className="bg-gradient-to-r from-indigo-500 to-purple-600 py-8 text-white text-center">
       <h2 className="text-3xl md:text-4xl font-semibold mb-6">
         Trusted By Millions, Built For You
       </h2>
@@ -26,7 +26,7 @@ const StatsSection = () => {
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="  p-8 w-64 "
+            className=" p-8 w-64 "
           >
             
             <p className="text-lg font-medium">{stat.title}</p>

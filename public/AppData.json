@@ -1,164 +1,218 @@
 [
   {
-    "image": "https://cdn.example.com/images/app1.png",
-    "title": "SnapPix",
-    "companyName": "Vision Labs",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+    "title": "FruitTrack",
+    "companyName": "Apple Wellness",
     "id": 1,
-    "description": "SnapPix is a next-generation photo editing app designed for creativity and simplicity. With over 150 AI-powered filters, one-tap enhancements, and professional-grade color correction tools, you can turn any picture into a masterpiece in seconds. The app also includes background removal, portrait retouching, sky replacement, and collage maker tools. Whether you're a professional photographer or a social media creator, SnapPix helps you express your creativity effortlessly.",
-    "size": 85,
-    "reviews": 12845,
-    "ratingAvg": 4.6,
-    "downloads": 5000000,
-    "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 3100 },
-      { "name": "5 star", "count": 7045 }
-    ]
-  },
-  {
-    "image": "https://cdn.example.com/images/app2.png",
-    "title": "FitTrack",
-    "companyName": "Wellness Pro",
-    "id": 2,
-    "description": "FitTrack is your personal fitness companion that helps you track workouts, monitor calories, and analyze your progress in real-time. It supports hundreds of exercises with animated guidance, integrates with smartwatches, and offers personalized meal suggestions. Whether you’re aiming to lose weight, gain muscle, or simply stay active, FitTrack gives you detailed insights through AI-driven analytics and weekly progress summaries.",
-    "size": 72,
-    "reviews": 9432,
-    "ratingAvg": 4.2,
-    "downloads": 3200000,
-    "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 1000 },
-      { "name": "3 star", "count": 1700 },
-      { "name": "4 star", "count": 2500 },
-      { "name": "5 star", "count": 3632 }
-    ]
-  },
-  {
-    "image": "https://cdn.example.com/images/app3.png",
-    "title": "Learnify",
-    "companyName": "EduCore",
-    "id": 3,
-    "description": "Learnify offers interactive lessons, bite-sized videos, and personalized quizzes to help you master new skills faster. From coding and graphic design to marketing and music theory, you can learn from industry experts at your own pace. The app uses AI to recommend courses based on your goals, provides progress tracking, and offers offline downloads for learning anywhere, anytime.",
-    "size": 95,
-    "reviews": 22400,
-    "ratingAvg": 4.8,
-    "downloads": 12000000,
+    "description": "FruitTrack monitors your daily fruit consumption with smart reminders and nutritional insights. Log your intake, discover new recipes, and track health improvements over time. Perfect for maintaining a balanced diet effortlessly.",
+    "size": 52,
+    "reviews": 6800,
+    "ratingAvg": 4.5,
+    "downloads": 3800000,
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 4600 },
-      { "name": "5 star", "count": 15700 }
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3100 }
     ]
   },
   {
-    "image": "https://cdn.example.com/images/app4.png",
-    "title": "NoteSphere",
-    "companyName": "SmartSoft",
-    "id": 4,
-    "description": "NoteSphere helps you organize your life by combining note-taking, to-do lists, and reminders in one clean workspace. With real-time sync across all your devices, markdown support, and cloud backup, you’ll never lose an important idea. Collaborate on notes with teammates, attach files, and use tags to organize your thoughts more efficiently.",
-    "size": 60,
-    "reviews": 5430,
-    "ratingAvg": 4.4,
-    "downloads": 2800000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+    "title": "OfficeSync",
+    "companyName": "Microsoft Tools",
+    "id": 2,
+    "description": "OfficeSync streamlines productivity with integrated document editing, team collaboration, and cloud storage. Create, share, and edit files on the go, with real-time updates and secure access for all your professional needs.",
+    "size": 110,
+    "reviews": 9500,
+    "ratingAvg": 4.3,
+    "downloads": 6200000,
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1000 },
-      { "name": "4 star", "count": 1500 },
-      { "name": "5 star", "count": 1830 }
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 3800 }
     ]
   },
   {
-    "image": "https://cdn.example.com/images/app5.png",
-    "title": "GameVerse",
-    "companyName": "Pixel Planet",
-    "id": 5,
-    "description": "GameVerse is the ultimate cloud-based gaming platform that gives you instant access to hundreds of multiplayer and single-player titles without the need for downloads. Play high-quality games on any device, connect with friends, and join live tournaments. GameVerse also offers achievements, in-game rewards, and real-time voice chat for a complete social gaming experience.",
-    "size": 210,
-    "reviews": 40100,
-    "ratingAvg": 4.7,
-    "downloads": 25000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "SocialConnect",
+    "companyName": "Facebook Networks",
+    "id": 3,
+    "description": "SocialConnect keeps you linked with friends and family through posts, stories, and events. Share moments, join groups, and discover content tailored to your interests in a vibrant social ecosystem.",
+    "size": 75,
+    "reviews": 14500,
+    "ratingAvg": 4.2,
+    "downloads": 8500000,
     "ratings": [
       { "name": "1 star", "count": 1200 },
       { "name": "2 star", "count": 1500 },
-      { "name": "3 star", "count": 4200 },
-      { "name": "4 star", "count": 8000 },
-      { "name": "5 star", "count": 25200 }
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 4800 }
     ]
   },
   {
-    "image": "https://cdn.example.com/images/app6.png",
-    "title": "BudgetBuddy",
-    "companyName": "FinSolve",
-    "id": 6,
-    "description": "BudgetBuddy helps you manage your income, expenses, and savings effortlessly. Automatically categorize your spending, set financial goals, and visualize your money flow through interactive charts. The app also provides reminders for upcoming bills, daily expense insights, and custom budgeting advice to help you achieve financial freedom.",
-    "size": 55,
-    "reviews": 6530,
-    "ratingAvg": 4.3,
-    "downloads": 3100000,
-    "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 1100 },
-      { "name": "4 star", "count": 1800 },
-      { "name": "5 star", "count": 2330 }
-    ]
-  },
-  {
-    "image": "https://cdn.example.com/images/app7.png",
-    "title": "MindEase",
-    "companyName": "CalmTech",
-    "id": 7,
-    "description": "MindEase is a mental wellness app that helps you reduce stress, improve focus, and build mindfulness through guided meditations and calming soundscapes. With mood tracking, breathing exercises, and sleep stories, it provides daily tools to improve your mental health and emotional balance.",
-    "size": 78,
-    "reviews": 12000,
-    "ratingAvg": 4.9,
-    "downloads": 9000000,
-    "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 800 },
-      { "name": "4 star", "count": 2200 },
-      { "name": "5 star", "count": 8400 }
-    ]
-  },
-  {
-    "image": "https://cdn.example.com/images/app8.png",
-    "title": "TravelGo",
-    "companyName": "GlobeFly",
-    "id": 8,
-    "description": "TravelGo makes travel planning simple and enjoyable. Find cheap flights, book hotels, and discover top attractions with AI-driven recommendations based on your preferences. Access offline maps, create itineraries, and get real-time travel alerts so you can enjoy stress-free adventures.",
-    "size": 90,
-    "reviews": 18700,
-    "ratingAvg": 4.5,
-    "downloads": 10000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg",
+    "title": "TweetStream",
+    "companyName": "Twitter Media",
+    "id": 4,
+    "description": "TweetStream lets you follow real-time conversations, news, and trends. Post updates, engage with influencers, and build your network with short, impactful messages and multimedia sharing.",
+    "size": 48,
+    "reviews": 11200,
+    "ratingAvg": 4.1,
+    "downloads": 7100000,
     "ratings": [
       { "name": "1 star", "count": 900 },
-      { "name": "2 star", "count": 1100 },
-      { "name": "3 star", "count": 2300 },
-      { "name": "4 star", "count": 4200 },
-      { "name": "5 star", "count": 10200 }
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 3600 }
     ]
   },
   {
-    "image": "https://cdn.example.com/images/app9.png",
-    "title": "CookSmart",
-    "companyName": "FoodieTech",
-    "id": 9,
-    "description": "CookSmart brings thousands of delicious recipes to your fingertips. Explore dishes from around the world, filter by diet or ingredients, and get step-by-step cooking instructions. You can save favorites, plan meals, and generate shopping lists automatically. Ideal for both beginners and experienced cooks.",
-    "size": 68,
-    "reviews": 9400,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "title": "CareerLink",
+    "companyName": "LinkedIn Pro",
+    "id": 5,
+    "description": "CareerLink connects professionals for networking, job searching, and skill development. Update your profile, apply to opportunities, and learn from industry leaders through articles and courses.",
+    "size": 92,
+    "reviews": 8700,
     "ratingAvg": 4.4,
-    "downloads": 4200000,
+    "downloads": 5400000,
     "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 900 },
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4200 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "title": "IdeaBoard",
+    "companyName": "Pinterest Visuals",
+    "id": 6,
+    "description": "IdeaBoard inspires creativity with visual collections of images, videos, and ideas. Pin your favorites, organize boards by theme, and discover trends in fashion, home decor, and more.",
+    "size": 61,
+    "reviews": 7600,
+    "ratingAvg": 4.5,
+    "downloads": 4300000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 4350 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg",
+    "title": "TuneFlow",
+    "companyName": "Spotify Audio",
+    "id": 7,
+    "description": "TuneFlow delivers personalized music playlists, podcasts, and audio books. Discover new artists, create custom mixes, and enjoy offline listening with high-quality streaming.",
+    "size": 84,
+    "reviews": 19800,
+    "ratingAvg": 4.6,
+    "downloads": 10200000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
       { "name": "3 star", "count": 1400 },
-      { "name": "4 star", "count": 2500 },
-      { "name": "5 star", "count": 4000 }
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 13000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "StreamWatch",
+    "companyName": "Netflix Entertainment",
+    "id": 8,
+    "description": "StreamWatch offers unlimited movies, TV shows, and originals on demand. Browse genres, get recommendations, and watch offline with subtitles in multiple languages for endless entertainment.",
+    "size": 156,
+    "reviews": 23400,
+    "ratingAvg": 4.7,
+    "downloads": 14500000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 13600 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg",
+    "title": "TravelNest",
+    "companyName": "Airbnb Stays",
+    "id": 9,
+    "description": "TravelNest finds unique accommodations worldwide, from cozy homes to luxury villas. Book experiences, host your space, and plan trips with maps, reviews, and secure payments.",
+    "size": 73,
+    "reviews": 15600,
+    "ratingAvg": 4.3,
+    "downloads": 8900000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 7700 }
+    ]
+  },
+  {
+    "image": "https://seeklogo.com/assets/img/logo-share.png",
+    "title": "LogoShare",
+    "companyName": "SeekLogo Designs",
+    "id": 10,
+    "description": "LogoShare is a hub for downloading and sharing vector logos and icons. Search by brand, customize designs, and export in various formats for your creative projects.",
+    "size": 39,
+    "reviews": 4500,
+    "ratingAvg": 4.4,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://media.flaticon.com/dist/min/img/favicon.ico",
+    "title": "IconFinder",
+    "companyName": "Flaticon Icons",
+    "id": 11,
+    "description": "IconFinder provides thousands of free icons for apps, websites, and designs. Browse categories, download in SVG or PNG, and integrate easily into your digital projects.",
+    "size": 28,
+    "reviews": 3200,
+    "ratingAvg": 4.2,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "image": "https://cdn.oaistatic.com/assets/chatgpt-share-og-u7j5uyao.webp",
+    "title": "AIChat",
+    "companyName": "OpenAI Assistants",
+    "id": 12,
+    "description": "AIChat engages in intelligent conversations, answers queries, and assists with tasks using advanced AI. Generate ideas, code, or stories with natural language processing for everyday productivity.",
+    "size": 95,
+    "reviews": 27800,
+    "ratingAvg": 4.8,
+    "downloads": 16500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 19100 }
     ]
   }
 ]

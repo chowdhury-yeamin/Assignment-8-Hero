@@ -1,8 +1,12 @@
 import { Apple } from "lucide-react";
-import img1 from "../assets/hero.png"
-import Banner from "../Components/Banner"
+import img1 from "../assets/hero.png";
+import Banner from "../Components/Banner";
+import { useLoaderData } from "react-router";
+import Card from "../Components/Card";
 
 const Home = () => {
+  const products = useLoaderData();
+  const eightProducts = products.slice(0,8)
   return (
     <div className="text-center  mt-5">
       <h1 className="font-bold text-4xl">
@@ -40,7 +44,17 @@ const Home = () => {
       </div>
 
       {/* Banner section  */}
-     <Banner></Banner>
+      <Banner></Banner>
+
+      <div className="text-center mt-15">
+        <h1 className="text-4xl font-bold">Trending Apps</h1>
+        <p>Explore All Trending Apps on the Market developed by us</p>
+      </div>
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+        {eightProducts.map((product) => (
+          <Card key={product.id} product={product}></Card>
+        ))}
+      </div>
     </div>
   );
 };
