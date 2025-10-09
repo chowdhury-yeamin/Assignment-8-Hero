@@ -3,20 +3,19 @@ import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
 import { createBrowserRouter } from "react-router";
-import ErrorPage from "../Pages/ErrorPage";
-import ErrorApp from "../Pages/ErrorApp";
 import AppDetails from "../Pages/AppDetails";
+import ErrorPage from "../Pages/ErrorPage";
 
 const Router = createBrowserRouter([
   {
     path: "/",
-    errorElement: <ErrorApp></ErrorApp>,
+    errorElement:<ErrorPage></ErrorPage>,
     element: <MainLayout></MainLayout>,
     hydrateFallbackElement: <p>Loading....</p>,
     children: [
       {
         index: true,
-        element: <Home></Home>,       
+        element: <Home></Home>,
       },
       {
         path: "/apps",
@@ -28,14 +27,11 @@ const Router = createBrowserRouter([
       },
       {
         path: "/app-details/:id",
-        element: <AppDetails></AppDetails>,
+        element: <AppDetails></AppDetails>, 
       },
     ],
   },
-  {
-    path: "*",
-    element: <ErrorPage></ErrorPage>,
-  },
+
 ]);
 
 export default Router;

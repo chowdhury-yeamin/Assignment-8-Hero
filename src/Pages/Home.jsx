@@ -53,10 +53,8 @@ const Home = () => {
         <p>Explore All Trending Apps on the Market developed by us</p>
       </div>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
-        {eightProducts.map((product) => (
-          <Link key={product.id} to={"/app-details"}>
+        {eightProducts.map((product) => (   
             <Card key={product.id} product={product}></Card>
-          </Link>
         ))}
       </div>
       <Link

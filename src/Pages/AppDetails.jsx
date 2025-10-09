@@ -8,8 +8,11 @@ import ErrorApp from "./ErrorApp";
 
 const AppDetails = () => {
   const { id } = useParams();
-  const { products, loading, error } = useProducts();
+  const { products, loading } = useProducts();
+
+  if (loading) return <p>Loading...</p>;
   const product = products.find((p) => String(p.id) === id);
+   if (!product) return <ErrorApp></ErrorApp>;
   const {
     image,
     title,
@@ -20,7 +23,6 @@ const AppDetails = () => {
     size,
     downloads,
   } = product || {};
-  
 
   return (
     <div>
