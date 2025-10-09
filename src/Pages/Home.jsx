@@ -6,7 +6,7 @@ import Card from "../Components/Card";
 import useProducts from "../Hooks/useProducts";
 
 const Home = () => {
-  const { products } = useProducts();
+  const { products , } = useProducts();
 
   const eightProducts = products.slice(0, 8);
   return (
@@ -54,7 +54,9 @@ const Home = () => {
       </div>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
         {eightProducts.map((product) => (
-          <Card key={product.id} product={product}></Card>
+          <Link key={product.id} to={"/app-details"}>
+            <Card key={product.id} product={product}></Card>
+          </Link>
         ))}
       </div>
       <Link

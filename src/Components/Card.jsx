@@ -1,11 +1,13 @@
+import { Link } from 'react-router';
 import downloadImg from  '../assets/icon-downloads.png'
 import starImg from  '../assets/icon-ratings.png'
 
 const Card = ({product}) => {
 
-  const {title ,image ,downloads ,ratingAvg} = product
+  const {title ,image ,downloads ,ratingAvg , id} = product
   return (
     <div>
+      <Link to={`/app-details/${id}`}>
       <div className="card bg-base-100  shadow-sm mx-4 my-4 hover:scale-105 transition ease-in-out">
         <figure className="px-10 pt-10">
           <img
@@ -22,6 +24,7 @@ const Card = ({product}) => {
           </div>
         </div>
       </div>
+      </Link>
     </div>
   );
 };
