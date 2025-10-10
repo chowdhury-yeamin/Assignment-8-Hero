@@ -4,7 +4,7 @@ import starImg from  '../assets/icon-ratings.png'
 
 const Card = ({product}) => {
 
-  const {title ,image ,downloads ,ratingAvg , id} = product
+  const {title ,image ,downloads ,ratingAvg , id} = product;
   return (
     <div>
       <Link to={`/app-details/${id}`}>

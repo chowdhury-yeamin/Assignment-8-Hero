@@ -5,13 +5,14 @@ import Installation from "../Pages/Installation";
 import { createBrowserRouter } from "react-router";
 import AppDetails from "../Pages/AppDetails";
 import ErrorPage from "../Pages/ErrorPage";
+import { SyncLoader } from "react-spinners";
 
 const Router = createBrowserRouter([
   {
     path: "/",
     errorElement:<ErrorPage></ErrorPage>,
     element: <MainLayout></MainLayout>,
-    hydrateFallbackElement: <p>Loading....</p>,
+    hydrateFallbackElement:<SyncLoader />,
     children: [
       {
         index: true,

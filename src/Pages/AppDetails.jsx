@@ -1,18 +1,21 @@
-import React from "react";
 import { useParams } from "react-router";
 import useProducts from "../Hooks/useProducts";
 import downloadImg from "../assets/icon-downloads.png";
 import starImg from "../assets/icon-ratings.png";
 import likeImg from "../assets/icon-review.png";
 import ErrorApp from "./ErrorApp";
+import { SyncLoader } from "react-spinners";
+import InstallButton from "../Components/InstallButton";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { products, loading } = useProducts();
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <SyncLoader />;
   const product = products.find((p) => String(p.id) === id);
-   if (!product) return <ErrorApp></ErrorApp>;
+
+  if (!product) return <ErrorApp></ErrorApp>;
+
   const {
     image,
     title,
@@ -24,9 +27,10 @@ const AppDetails = () => {
     downloads,
   } = product || {};
 
+
   return (
     <div>
-      <div className="flex items-center gap-3 mt-10 md:gap-4 lg:gap-5">
+      <div className="flex flex-col items-center gap-3 mt-10 md:flex-row md:gap-4 lg:gap-5">
         <div>
           <figure className="w-50 md:w-70 lg:100">
             <img src={image} alt="Album" />
@@ -43,27 +47,25 @@ const AppDetails = () => {
           </div>
           <div>
             <hr className="text-gray-400 ml-3" />
-            <div className="flex gap-8 ml-5 mt-2">
-              <div>
+            <div className="flex gap-3 md:gap-10 ml-5 mt-2">
+              <div className="flex flex-col items-center">
                 <img src={downloadImg} alt="" className="w-[70px]" />
                 <p>Downloads</p>
-                <h1>{downloads}</h1>
+                <h1 className="text-2xl font-bold">{downloads}</h1>
               </div>
-              <div>
+              <div className="flex flex-col items-center">
                 <img src={starImg} alt="" className="w-[70px]" />
                 <p>Average Ratings</p>
-                <h1>{ratingAvg}</h1>
+                <h1 className="text-2xl font-bold">{ratingAvg}</h1>
               </div>
-              <div>
+              <div className="flex flex-col items-center">
                 <img src={likeImg} alt="" className="w-[70px]" />
                 <p>Total Reviews</p>
-                <h1>{reviews}</h1>
+                <h1 className="text-2xl font-bold">{reviews}</h1>
               </div>
             </div>
             <div className="ml-5 mt-2">
-              <button className="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-2 rounded">
-                Install Now ({size} MB)
-              </button>
+              <InstallButton size={size} />
             </div>
           </div>
         </div>

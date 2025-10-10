@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import logo from "../assets/logo.png"
 
 const Nav = () => {
   return (
@@ -32,7 +33,7 @@ const Nav = () => {
             <Link to={"/installation"}>Installation</Link>
           </ul>
         </div>
-        <Link to={"/"} className="btn btn-ghost text-xl"><img className="w-8" src="/src/assets/logo.png" alt="" />HERO.IO</Link>
+        <Link to={"/"} className="btn btn-ghost text-xl"><img className="w-8" src={logo} alt="" />HERO.IO</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal gap-3">
