@@ -6,6 +6,16 @@ import likeImg from "../assets/icon-review.png";
 import ErrorApp from "./ErrorApp";
 import { SyncLoader } from "react-spinners";
 import InstallButton from "../Components/InstallButton";
+import {
+  ComposedChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from "recharts";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -24,9 +34,9 @@ const AppDetails = () => {
     ratingAvg,
     reviews,
     size,
+    ratings,
     downloads,
   } = product || {};
-
 
   return (
     <div>
@@ -71,7 +81,34 @@ const AppDetails = () => {
         </div>
       </div>
       <hr className="text-gray-400 ml-3 mt-10" />
-      <div></div>
+
+      {/* CHART  */}
+      <div className="space-y-4">
+        <h3 className="text-2xl font-semibold">Installation Summary</h3>
+        <div className="bg-base-100 border rounded-xl p-4 h-80">
+          <ResponsiveContainer width="100%" height="100%">
+            <ComposedChart
+              layout="vertical"
+              data={ratings}
+              margin={{
+                top: 20,
+                right: 20,
+                bottom: 20,
+                left: 20,
+              }}
+            >
+              <CartesianGrid stroke="#f5f5f5" />
+              <XAxis type="number" />
+              <YAxis dataKey="name" type="category" scale="band" />
+              <Tooltip />
+              <Legend />
+          
+              <Bar dataKey="count" barSize={20} fill="#413ea0" />
+            </ComposedChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+
       <div className="my-10">
         <h1 className="text-xl font-bold">Description</h1>
         <p className="text-gray-400">{description}</p>

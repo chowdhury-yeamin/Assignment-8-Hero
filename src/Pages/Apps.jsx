@@ -56,7 +56,7 @@ const Apps = () => {
         </label>
       </div>
 
-      {/* Products or "Not Found" message */}
+      
       {searchedProducts.length > 0 ? (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 mt-6">
           {searchedProducts.map((product) => (

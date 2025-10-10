@@ -1,6 +1,18 @@
 import { useEffect, useState } from "react";
 import imgD from "../assets/icon-downloads.png";
 import imgr from "../assets/icon-ratings.png";
+import {
+  ComposedChart,
+  Line,
+  Area,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from "recharts";
 
 const Installation = () => {
   const [installation, setInstallation] = useState([]);
@@ -26,7 +38,7 @@ const Installation = () => {
     const updatedList = savedList.filter((p) => p.id !== id);
 
     localStorage.setItem("installed", JSON.stringify(updatedList));
-    setInstallation(updatedList); 
+    setInstallation(updatedList);
   };
 
   return (
@@ -102,10 +114,11 @@ const Installation = () => {
 
         {installation.length === 0 && (
           <p className="text-center text-5xl text-gray-500 my-6">
-            No apps installed 
+            No apps installed
           </p>
         )}
       </div>
+      
     </div>
   );
 };
