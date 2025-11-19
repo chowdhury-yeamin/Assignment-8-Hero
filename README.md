@@ -1,3 +1,8 @@
+![React](https://img.shields.io/badge/React-19.1.1-blue?logo=react&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1.14-blue?logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7.1.7-brightgreen)
+
+
 # App Marketplace Website
 
 A fully functional web application that works like a digital app marketplace, similar to the Play Store or App Store. Users can browse apps, view detailed information, and download them directly from the platform. Built using React, TailwindCSS, and various modern libraries to enhance UI and functionality.
