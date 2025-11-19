@@ -1,16 +1,39 @@
-# React + Vite
+# App Marketplace Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional web application that works like a digital app marketplace, similar to the Play Store or App Store. Users can browse apps, view detailed information, and download them directly from the platform. Built using React, TailwindCSS, and various modern libraries to enhance UI and functionality.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Technologies Used
+- React
+- TailwindCSS
+- DaisyUI
+- Vite
+- Axios
+- React Router
+- React Toastify
+- React Spinners
+- Recharts
+- Lucide React Icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- Browse and search apps
+- View app details including description, ratings, and screenshots
+- Download apps
+- Smooth, responsive, and user-friendly interface
+- Toast notifications for user actions
+- Charts and visualizations with Recharts
 
-## Expanding the ESLint configuration
+## Dependencies
+- `react`, `react-dom`, `react-router`, `axios`, `react-toastify`, `react-spinners`, `recharts`, `lucide-react`, `@tailwindcss/vite`, `tailwindcss`, `daisyui`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Dev Dependencies
+- `vite`, `@vitejs/plugin-react`, `eslint`, `eslint-plugin-react-hooks`, `eslint-plugin-react-refresh`, `@eslint/js`, `@types/react`, `@types/react-dom`, `globals`
+
+## Installation & Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/chowdhury-yeamin/Assignment-8-Hero
+
+
+## Live Link : https://app-store-by-yeamin.netlify.app/
